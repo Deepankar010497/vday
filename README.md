@@ -1,10 +1,10 @@
-# Valentine's Day Interactive Website (CodeKage)
+# Valentine's Day Interactive Website (Deepankar010497)
 
-A cute, interactive web page to ask someone to be your Valentine. Features playful button mechanics, heartwarming GIFs, and heart-shaped confetti.
+A cute, interactive web page to ask Gugu to be your Valentine. Features playful button mechanics, heartwarming GIFs, and heart-shaped confetti.
 
 ## How It Works
 
-1. The page presents the question **"Will you be my Valentine?"** alongside a cute GIF.
+1. The page presents a personalized Valentine question alongside a cute GIF.
 2. Clicking **No** swaps the GIF, changes the button text to increasingly desperate pleas, and grows the **Yes** button bigger and bigger.
 3. Clicking **Yes** celebrates with a special GIF, a victory message, and a burst of heart-shaped confetti.
 
@@ -18,18 +18,14 @@ A cute, interactive web page to ask someone to be your Valentine. Features playf
 
 ## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/CodeKageHQ/Ask-out-your-Valentine.git
-   ```
-2. Open `index.html` in your browser.
+1. Open `index.html` in your browser.
 
 That's it -- no build step, no dependencies to install. Tailwind CSS and canvas-confetti are loaded via CDN.
 
 ## Project Structure
 
 ```
-Ask-out-your-Valentine/
+bubu-dudu-valentine/
 ├── images/
 │   ├── image1.gif    # Default greeting
 │   ├── image2.gif    # After 1st "No"
@@ -43,12 +39,13 @@ Ask-out-your-Valentine/
 └── README.md
 ```
 
-## Customization
+## Personalization
 
 Want to make it your own? Here are some easy tweaks inside `index.html`:
 
 | What | Where | How |
 |------|-------|-----|
+| Names and message | `#valentineQuestion` and the paragraph beneath | Personalize for Gugu and Deepankar |
 | GIF images | `images/` folder | Replace the GIFs with your own (keep the same filenames) |
 | "No" button messages | `NO_BUTTON_MESSAGES` array | Edit the strings to say whatever you like |
 | Button growth speed | `GROWTH_PER_CLICK` / `FONT_GROWTH_PER_CLICK` constants | Lower the numbers for subtler growth |
@@ -62,12 +59,8 @@ Want to make it your own? Here are some easy tweaks inside `index.html`:
 - **JavaScript** -- vanilla JS, no frameworks
 - **canvas-confetti** -- lightweight confetti animation library
 
-## Contributing
-
-Contributions are welcome! Whether it's new GIF suggestions, design tweaks, or code improvements -- fork the repo and open a pull request.
-
 ## License
 
 Open source under the [MIT License](LICENSE).
 
-Happy Valentine's Day! ❤️
+Made with love by Deepankar010497. Happy Valentine's Day! ❤️
